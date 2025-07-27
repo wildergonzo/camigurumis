@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camigurumis - Handcrafted Amigurumi Creations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-heart"></i>
+                    <span>Camigurumis</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Handcrafted Amigurumi Creations</h1>
+            <p>Bringing joy and comfort with lovingly crocheted amigurumi characters, made with premium yarn and endless care</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">View Our Collection</a>
+                <a href="#contact" class="btn btn-secondary">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Amigurumi Collection</h2>
+                <p>Discover our adorable handcrafted amigurumi characters perfect for gifts, decoration, or companionship</p>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Items</button>
+                <button class="filter-btn" data-filter="animals">Animals</button>
+                <button class="filter-btn" data-filter="characters">Characters</button>
+                <button class="filter-btn" data-filter="food">Food</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card" data-category="animals">
+                    <div class="product-image">
+                        <div class="image-placeholder animal-amigurumi clickable-image" data-title="Adorable Puppy" data-description="Soft and cuddly crocheted puppy with embroidered details and floppy ears">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Adorable Puppy</h3>
+                        <p>Soft and cuddly crocheted puppy with embroidered details and floppy ears</p>
+                        <div class="product-details">
+                            <span class="price">$45</span>
+                            <span class="serves">Medium Size</span>
+                        </div>
+                        <button class="btn btn-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="characters">
+                    <div class="product-image">
+                        <div class="image-placeholder character-amigurumi clickable-image" data-title="Magical Unicorn" data-description="Enchanting unicorn with rainbow mane and sparkling horn details">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Magical Unicorn</h3>
+                        <p>Enchanting unicorn with rainbow mane and sparkling horn details</p>
+                        <div class="product-details">
+                            <span class="price">$52</span>
+                            <span class="serves">Large Size</span>
+                        </div>
+                        <button class="btn btn-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="food">
+                    <div class="product-image">
+                        <div class="image-placeholder food-amigurumi clickable-image" data-title="Kawaii Fruit Set" data-description="Adorable set of smiling fruits including apple, banana, and strawberry">
+                            <i class="fas fa-apple-alt"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kawaii Fruit Set</h3>
+                        <p>Adorable set of smiling fruits including apple, banana, and strawberry</p>
+                        <div class="product-details">
+                            <span class="price">$38</span>
+                            <span class="serves">Set of 3</span>
+                        </div>
+                        <button class="btn btn-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <div class="image-placeholder accessory-amigurumi clickable-image" data-title="Mini Keychain Collection" data-description="Tiny amigurumi keychains perfect for bags, keys, or gifts">
+                            <i class="fas fa-key"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mini Keychain Collection</h3>
+                        <p>Tiny amigurumi keychains perfect for bags, keys, or gifts</p>
+                        <div class="product-details">
+                            <span class="price">$15 each</span>
+                            <span class="serves">Mini Size</span>
+                        </div>
+                        <button class="btn btn-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="animals">
+                    <div class="product-image">
+                        <div class="image-placeholder animal-amigurumi clickable-image" data-title="Sleepy Kitten" data-description="Peaceful sleeping kitten with soft stripes and tiny pink nose">
+                            <i class="fas fa-cat"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sleepy Kitten</h3>
+                        <p>Peaceful sleeping kitten with soft stripes and tiny pink nose</p>
+                        <div class="product-details">
+                            <span class="price">$42</span>
+                            <span class="serves">Medium Size</span>
+                        </div>
+                        <button class="btn btn-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="characters">
+                    <div class="product-image">
+                        <div class="image-placeholder character-amigurumi clickable-image" data-title="Friendly Dragon" data-description="Adorable dragon with colorful wings and gentle expression">
+                            <i class="fas fa-dragon"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Friendly Dragon</h3>
+                        <p>Adorable dragon with colorful wings and gentle expression</p>
+                        <div class="product-details">
+                            <span class="price">$58</span>
+                            <span class="serves">Large Size</span>
+                        </div>
+                        <button class="btn btn-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="food">
+                    <div class="product-image">
+                        <div class="image-placeholder food-amigurumi clickable-image" data-title="Cute Dessert Set" data-description="Sweet collection of donuts, cupcakes, and cookies with happy faces">
+                            <i class="fas fa-cookie-bite"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cute Dessert Set</h3>
+                        <p>Sweet collection of donuts, cupcakes, and cookies with happy faces</p>
+                        <div class="product-details">
+                            <span class="price">$48</span>
+                            <span class="serves">Set of 4</span>
+                        </div>
+                        <button class="btn btn-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="animals">
+                    <div class="product-image">
+                        <div class="image-placeholder animal-amigurumi clickable-image" data-title="Ocean Friends" data-description="Adorable sea creatures including whale, octopus, and seahorse">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Ocean Friends</h3>
+                        <p>Adorable sea creatures including whale, octopus, and seahorse</p>
+                        <div class="product-details">
+                            <span class="price">$55</span>
+                            <span class="serves">Set of 3</span>
+                        </div>
+                        <button class="btn btn-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="characters">
+                    <div class="product-image">
+                        <div class="image-placeholder character-amigurumi clickable-image" data-title="Wizard Bear" data-description="Magical teddy bear with wizard hat and tiny spell book">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Wizard Bear</h3>
+                        <p>Magical teddy bear with wizard hat and tiny spell book</p>
+                        <div class="product-details">
+                            <span class="price">$62</span>
+                            <span class="serves">Large Size</span>
+                        </div>
+                        <button class="btn btn-order">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Meet the Artist</h2>
+                    <h3>Carminia Baldelomar</h3>
+                    <p>Born and raised in Bolivia, I discovered my passion for the arts at an early age. After studying Arts in Bolivia, I spent years expressing my creativity through painting, capturing the vibrant colors and rich culture of my homeland on canvas.</p>
+                    
+                    <p>My artistic journey took a delightful turn when I discovered the wonderful world of amigurumi. What started as a personal hobby quickly blossomed into a deep love for creating these adorable crocheted companions. Each piece I create carries the same attention to detail and artistic vision that I brought to my paintings.</p>
+                    
+                    <p>Today, I'm thrilled to share my handcrafted amigurumi creations with people around the world. Every stitch is made with love, bringing joy and comfort to those who welcome these little characters into their homes. From cute animals to magical creatures, each amigurumi tells its own special story.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-palette"></i>
+                            <h4>Artistic Background</h4>
+                            <p>Studied Arts in Bolivia with expertise in painting</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h4>Made with Love</h4>
+                            <p>Every amigurumi crafted with care and attention</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-globe-americas"></i>
+                            <h4>Cultural Heritage</h4>
+                            <p>Bolivian artistry in every creation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder artist-profile">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="artist-info">
+                        <p><strong>Carminia Baldelomar</strong></p>
+                        <p>Artist & Amigurumi Creator</p>
+                        <p>📍 Bolivia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Order Your Perfect Amigurumi</h2>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <select required>
+                        <option value="">Amigurumi Type</option>
+                        <option value="animals">Animal Characters</option>
+                        <option value="characters">Fantasy Characters</option>
+                        <option value="food">Food Items</option>
+                        <option value="accessories">Accessories</option>
+                    </select>
+                    <textarea placeholder="Tell us about your desired character or custom idea..." rows="4"></textarea>
+                    <button type="submit" class="btn btn-primary">Send Order Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <i class="fas fa-heart"></i>
+                    <span>Camigurumis</span>
+                </div>
+                <p>&copy; 2024 Camigurumis. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle"></h3>
+                <span class="close-btn">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="modalImage" class="modal-image-container">
+                    <i id="modalIcon" class="fas"></i>
+                </div>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
